@@ -1,0 +1,143 @@
+body {
+font-family:'Catamaran', serif; 
+background: white;
+}
+
+img {
+border: 0;
+margin: auto;
+}
+
+p {
+line-height: 1.5em;
+margin: 8px auto 8px auto;
+text-align: center;
+}
+
+h2 {
+font-family: 'Playfair Display', sans-serif;
+text-align: center;
+}
+
+h3 {
+font-size: 18.5px;
+font-family: 'Playfair Display', sans-serif;
+text-align: center;
+margin-top: 45px;
+}
+
+h4 {
+font-family: 'Playfair Display', sans-serif;
+text-align: center;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+float: left;
+margin-bottom: 0;
+}
+
+li a {
+float: left;
+background-color: brown;
+font-size: 28px;
+font-weight: bold;
+font-family: 'Courier New', serif;
+display: block;
+color: white;
+padding: .3em 1.6em;
+margin: 10px auto;
+text-decoration: none;
+}
+
+.bg {
+width: 80%; 
+background: burlywood; 
+display: block; 
+clear: both; 
+margin: auto auto 40px auto;
+padding: 25px;
+}
+
+.bg2 { width: 80%; 
+background-color: white; 
+display: block; 
+clear: both; 
+margin: auto auto 40px auto;
+padding: 25px;
+}
+
+.productions {
+line-height:150%;
+}
+
+.anchor {
+display: block;
+height: 50px; /*same height as header*/
+visibility: hidden;
+}
+
+.logo {
+float: left; width: 1em; height: 1em;
+padding: .3em 1.6em;
+margin: 10px auto;
+}
+
+.list {
+text-align: center;
+}
+
+nav.main-nav {
+display: table;
+background: brown;
+z-index:170;
+margin:0px;
+border-bottom:0px solid #dadada;
+width:100%;
+height:10px;
+position:fixed;
+top: 0;
+left: 0;
+right: 0;
+margin-bottom: 0 !important;
+text-align: center;
+}
+
+.iframeyoutube {
+position: absolute; 
+left: 0px; 
+top: 0px; 
+width: 80%; 
+height: 100%;
+}
+
+.wrapperyoutube {
+position: relative; 
+width: 80%; 
+height: 100%;
+height: 0px; 
+padding-bottom: 50%;
+margin: auto;
+}
+
+.spotify5items {
+	width: 300px
+	height: 310px;
+}
+
+@media screen and (min-width: 480px) {
+   ul.gearul {
+  width: 18%;
+  float: left;
+}
+}
+
+
+
+//@todo
+https://codepen.io/torbencolding/pen/OPwwOg
