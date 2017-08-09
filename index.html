@@ -14,6 +14,11 @@
          ga('create', 'UA-99311530-1', 'auto');
          ga('send', 'pageview');
       </script>
+<script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+	  
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Catamaran:900" rel="stylesheet">
       <link href="stylesheet.css" rel="stylesheet">
       <script src="javascript.js"></script>
@@ -26,7 +31,12 @@
   
       <nav class="main-nav">
          <img src="images/ilprecordslogo.jpg" class="logo" alt="ILP">
-         <ul class="list">
+		 <div class="container" onclick="toggleList(this);">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+         <ul id="navlist">			
             <li><a href="#productions">PRODUCTIONS</a></li>
             <li><a href="#studio">STUDIO</a></li>
             <li><a href="#mobile">MOBILE</a></li>
@@ -122,7 +132,7 @@
          <p>Our lively recording and post-production studio opened in 2012.</p>
          <p>Conveniently located in the countryside, minutes north of Amsterdam,  we combine a great sounding 70 m<sup>2</sup> room with state-of-the-art analog gear and digital processing power.</p>
         
-		<div>
+		<div class="geardiv">
                <ul class="gearul">
 			   <h4>RECORDING</h4>
                <li>MOTU 16A</li>
@@ -160,6 +170,8 @@
                <li>Marshall Lead 100 Mosfet + 15" cab</li>
                <li>Peavey Bass Mark II + 15" cab</li>
             </ul>
+			</div>
+			<div class="geardiv">
 			
             <ul class="gearul">
                <h4>PERCUSSION</h4>
